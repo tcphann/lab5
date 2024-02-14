@@ -1,3 +1,6 @@
+
+<?php 
+
 //Make short Variable names
 $firstName = $_REQUEST['first_name_field'];
 $lastName = $_REQUEST['last_name_field'];
@@ -13,6 +16,7 @@ $age = $_REQUEST['age_field'];
 <html>
 <head>
 	<title>Lab5</title>
+	<meta name="generator" content="BBEdit 15.0">
     <style>
     .box {
       border: 1px solid #444;
@@ -39,7 +43,7 @@ $age = $_REQUEST['age_field'];
     <p><strong>Age:</strong> <?php echo htmlentities($age) ?></p>
   </div>
   <div class="box">
-  <h2>This section contains the information provided in the availibility section:</h2>
+  <h2>This section contains the information provided in the availability section:</h2>
   <h3>Days Selected as Available:</h3>
   <?php
     if (is_array($available)){
