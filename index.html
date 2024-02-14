@@ -28,13 +28,13 @@
       <legend>My Availability</legend>
       <h3>Days Available:</h3>
       <div>
-        <div><label>Sunday <input type="checkbox" name="available_field[]" value="sunday"></label></div>
-        <div><label>Monday <input type="checkbox" name="available_field[]" value="monday"></label></div>
-        <div><label>Tuesday <input type="checkbox" name="available_field[]" value="tuesday"></label></div>
-        <div><label>Wednesday <input type="checkbox" name="available_field[]" value="wednesday"></label></div>
-        <div><label>Thursday <input type="checkbox" name="available_field[]" value="thursday"></label></div>
-        <div><label>Friday <input type="checkbox" name="available_field[]" value="friday"></label></div>
-        <div><label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label></div>
+        <div><label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label></div>
+        <div><label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label></div>
+        <div><label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label></div>
+        <div><label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label></div>
+        <div><label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label></div>
+        <div><label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label></div>
+        <div><label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label></div>
         <h3>Comments</h3>
         <textarea name="comments_field"></textarea>
       </div>
